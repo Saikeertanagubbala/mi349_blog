@@ -22,25 +22,26 @@
         <section>
             <form>
                 <p>
-                    <label for="search">search: </label>
-                    <input id="search" name="search" type="search" />
+                    <label for="name">Name: </label>
+                    <input id="name" name="name" type="text" />
                   </p>
                   <p>
-                    <label for="text">text: </label>
-                    <input id="text" name="text" type="text" />
+                    <label for="email">Email Address: </label>
+                    <input id="email" name="email" type="email" />
                   </p>
                   <p>
-                    <label for="date">date: </label>
-                    <input id="date" name="date" type="datetime-local" />
+                    <label for="reason">Reason for contact: </label>
+                    <input id="reason" name="reason" required>
+                    <option value="">Select a reason</option>
+                <option value="saying_hi">Saying Hi</option>
+                <option value="looking_for_contractor">Looking for a Contractor</option>
+                <option value="interested_in_interview">Interested in an Interview</option>
                   </p>
                   <p>
-                    <label for="radio">radio: </label>
-                    <input id="radio" name="radio" type="radio" />
+                    <label for="comment">Comment: </label>
+                    <textarea id="comment" name="comment"></textarea>
                   </p>
-                  <p>
-                    <label for="checkbox">checkbox: </label>
-                    <input id="checkbox" name="checkbox" type="checkbox" />
-                  </p>
+                 
                   <p><input type="submit" value="submit" /></p>
                   <p><input type="button" value="button" /></p>
             </form>
