@@ -69,6 +69,7 @@ nav ul li a {
 
 #blog {
     border-top: 5px solid #ccc;
+    display:flex;
 }
 
 .blog-post {
