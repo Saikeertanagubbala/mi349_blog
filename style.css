@@ -53,7 +53,7 @@ article {
     border-bottom: 1px solid #000;
 }
 
-a [href="linkedin.com/in/keertanagubbala"] {
+a[href="https://www.linkedin.com/in/keertanagubbala"] {
     color: darkgreen;
     font-weight: bold;
 }
