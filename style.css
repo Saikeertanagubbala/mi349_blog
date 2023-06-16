@@ -48,3 +48,7 @@ p {
 article {
     border-bottom: 1px solid #000;
 }
+
+table {
+    font-size: 0.9em;
+}
