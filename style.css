@@ -49,8 +49,8 @@ p {
 }
 
 nav a {
-    border: 1px solid gray;
-    padding: 3px;
+    border: 0.4px solid gray;
+    padding: 2px;
 }
 
 #blog {
