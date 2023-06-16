@@ -66,15 +66,14 @@ p {
 #blog {
     border-top: 5px solid #ccc;
     display:flex;
-    flex-wrap: wrap;
+    
     
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
-    flex-basis: 48%;
-    margin-bottom: 20px;  
-}
+    flex: 1 ;
+    margin: 20px }
 
 article {
     border-bottom: 1px solid #000;
