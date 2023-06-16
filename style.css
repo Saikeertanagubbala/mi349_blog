@@ -4,7 +4,9 @@ html {
 
 header {
     background-color: rgb(192, 223, 210);
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
+    position: sticky;
+    top: 50px; 
 }
 
 header p {
@@ -51,8 +53,6 @@ p {
 nav {
     background-color: rgb(192, 223, 210);
     padding: 10px;
-    position:sticky;
-    top: 50px;
 }
 
 nav ul {
