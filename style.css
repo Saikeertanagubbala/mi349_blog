@@ -115,3 +115,19 @@ form input[type="text"] {
 form button {
     margin-top: 10px;
 }
+
+figure {
+    float: right;
+    margin: 10px;
+    max-width: 50%; 
+  }
+  
+  figure img {
+    width: 100%;
+  }
+  
+  figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+  }
