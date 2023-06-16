@@ -51,4 +51,6 @@ article {
 
 table {
     font-size: 0.9em;
+    border-collapse: seperate;
+    border-spacing: 10px;
 }
