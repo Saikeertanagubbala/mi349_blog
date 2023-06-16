@@ -117,7 +117,7 @@ form button {
 }
 
 figure {
-    float:inline-start;
+    float:left;
     margin: 10px;
     max-width: 25%; 
   }
