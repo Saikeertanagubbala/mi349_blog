@@ -119,7 +119,7 @@ form button {
 figure {
     float: right;
     margin: 10px;
-    max-width: 100%; 
+    max-width: 10%; 
   }
   
   figure img {
