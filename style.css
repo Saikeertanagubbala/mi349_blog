@@ -6,9 +6,9 @@ header {
     position: sticky;
     top: 0;
     background-color: rgb(192, 223, 210);
-    padding: 10px;
+    padding-bottom: 20px;
     height: 40px;
-    z-index: 1; /* Add a higher z-index value */
+     
 }
 
 header p {
