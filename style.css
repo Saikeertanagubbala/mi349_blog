@@ -3,7 +3,7 @@ html {
 }
 
 header {
-    background-color: lightseagreen;
+    background-color: rgb(121, 225, 219);
 }
 
 header p {
@@ -55,11 +55,7 @@ nav a {
 }
 
 #blog {
-    border-top: 1px dotted #ccc;
-}
-
-#blog h2 {
-    font-size: 24px;
+    border-top: 1px solid #ccc;
 }
 
 .blog-post {
@@ -83,11 +79,11 @@ table {
 
 table th{
     font-weight: bold;
-    background-color: lightgreen;
+    background-color: rgb(197, 247, 197);
 }
 
 form label {
-    color: darkcyan;
+    color: rgb(4, 73, 73);
 }
 
 form input[type="text"] {
