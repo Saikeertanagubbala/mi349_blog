@@ -3,12 +3,8 @@ html {
 }
 
 header {
-    position: sticky;
-    top: 0;
     background-color: rgb(192, 223, 210);
-    padding-bottom: 20px;
-    height: 40px;
-     
+    padding-bottom: 20px; 
 }
 
 header p {
@@ -75,24 +71,11 @@ nav ul li a {
 
 #blog {
     border-top: 5px solid #ccc;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
-    flex: 1;
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
-.blog-post img {
-    align-self: flex-start;
-    margin-right: 20px;
 }
 
 article {
