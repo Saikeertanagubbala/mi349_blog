@@ -51,6 +51,8 @@ p {
 nav {
     background-color: rgb(192, 223, 210);
     padding: 10px;
+    position:sticky;
+    top: 50px;
 }
 
 nav ul {
