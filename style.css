@@ -47,17 +47,13 @@ p {
     line-height: 1.4em;   
 }
 
-nav {
+.sticky-nav {
     position: sticky;
     top: 0;
+    background-color: beige;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li a {
+.sticky-nav ul li a {
     padding: 2px;
 }
 
