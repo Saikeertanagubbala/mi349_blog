@@ -9,10 +9,6 @@ header {
     top: 0px; 
 }
 
-header p {
-    margin: 0px;
-}
-
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 40px;
@@ -86,10 +82,6 @@ article {
     margin: 20px;
 }
 
-.author {
-    font-style: italic;
-}
-
 table {
     font-size: 0.9em;
     border-collapse: separate;
@@ -131,7 +123,7 @@ figure {
     font-style: italic;
     margin-top: 5px;
   }
-  
+
   .blog-post::after {
     content: "";
     display: table;
