@@ -131,3 +131,9 @@ figure {
     font-style: italic;
     margin-top: 5px;
   }
+  
+  .blog-post::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
