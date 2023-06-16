@@ -75,8 +75,7 @@ nav ul li a {
 .blog-post {
     border-bottom: 1px dotted #ccc;
     padding: 20px;
-    margin: 20px; 
-    flex: 1;
+    margin: 20px;
 }
 
 article {
