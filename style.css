@@ -8,13 +8,17 @@ body {
     margin: 40px;
     padding: 40px;
     color: #242424;
-    border-top: 10px solid #242424;
-    background: #fff;
+    background: #f7caca;
 
 }
 
 h1 {
     font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
     margin: 0;
 }
 
