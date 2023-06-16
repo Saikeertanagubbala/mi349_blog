@@ -3,7 +3,7 @@ html {
 }
 
 header {
-    background-color: rgb(121, 225, 219);
+    background-color: rgb(192, 223, 210);
 }
 
 header p {
@@ -45,8 +45,7 @@ img {
 }
 
 p {
-    line-height: 1.4em;
-    
+    line-height: 1.4em;   
 }
 
 nav a {
