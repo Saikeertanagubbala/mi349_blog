@@ -69,12 +69,13 @@ nav ul li a {
 
 #blog {
     border-top: 5px solid #ccc;
-    display:flex;
+    display: flex;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
-
+    padding: 20px;
+    margin: 20px; 
 }
 
 article {
@@ -83,6 +84,13 @@ article {
     margin: 20px;
 }
 
+article:nth-last-of-type(1) {
+    flex: 1;
+}
+
+article:nth-last-of-type(2) {
+    flex: 1; 
+}
 
 table {
     font-size: 0.9em;
