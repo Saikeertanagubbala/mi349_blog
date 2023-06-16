@@ -50,7 +50,8 @@ p {
 nav {
     position: sticky;
     top: 50px;
-    left: 50px;
+    width: 200px;
+    margin-left: 20px;
 }
 
 nav ul {
@@ -60,12 +61,13 @@ nav ul {
 }
 
 nav ul li a {
-    padding: 2px;
+    margin-bottom:10px;
 }
 
 #blog {
     border-top: 5px solid #ccc;
-    display:flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 
 }
@@ -73,7 +75,15 @@ nav ul li a {
 .blog-post {
     border-bottom: 1px dotted #ccc;
     flex: 1 ;
-    margin-top: 20px }
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-post > * {
+    flex-basis: 50%;
+}
 
 article {
     border-bottom: 1px solid #000;
