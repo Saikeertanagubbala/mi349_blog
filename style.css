@@ -48,7 +48,7 @@ p {
     line-height: 1.4em;   
 }
 
-nav a {
+nav ul li a {
     border: 0.1px solid gray;
     padding: 2px;
 }
