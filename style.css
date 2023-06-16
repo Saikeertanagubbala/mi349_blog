@@ -84,13 +84,6 @@ article {
     margin: 20px;
 }
 
-article:nth-last-of-type(1) {
-    flex: 3;
-}
-
-article:nth-last-of-type(2) {
-    flex: 3; 
-}
 
 table {
     font-size: 0.9em;
