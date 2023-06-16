@@ -3,7 +3,11 @@ html {
 }
 
 header {
+    position: sticky;
+    top: 0;
     background-color: rgb(192, 223, 210);
+    padding: 10px;
+    z-index: 100;
 }
 
 header p {
@@ -48,10 +52,8 @@ p {
 }
 
 nav {
-    position: sticky;
-    top: 50px;
-    width: 200px;
-    margin-left: 20px;
+    background-color: rgb(192, 223, 210);
+    padding: 10px;
 }
 
 nav ul {
@@ -61,7 +63,8 @@ nav ul {
 }
 
 nav ul li a {
-    margin-bottom:10px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 #blog {
@@ -105,7 +108,7 @@ table {
     border: 1px solid gray;
 }
 
-table th{
+table th {
     font-weight: bold;
     background-color: rgb(197, 247, 197);
 }
